@@ -1,6 +1,9 @@
-#radlab{
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(232, 230, 227);
+}
+i{
     color: red;
 }
-#navtop{
-    background-color: rgba(255, 0, 0, 0.425);
+body{
+    background-color:purple;
 }
