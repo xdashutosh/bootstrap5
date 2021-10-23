@@ -5,10 +5,25 @@ i{
     color: red;
 }
 body{
-    background-color:grey;
+    background-color:lightpurple;
 }
 #radlab{
     color: violet;
     font: bolder;
     font-weight: bolder;
+}
+#footer{
+    background-color:lightcyan;
+}
+#home:hover{
+    color: red;
+}
+#about:hover{
+    color: red;
+}
+#contact:hover{
+    color: red;
+}
+#client:hover{
+    color: red;
 }
