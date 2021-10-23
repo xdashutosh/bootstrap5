@@ -5,5 +5,10 @@ i{
     color: red;
 }
 body{
-    background-color:purple;
+    background-color:grey;
+}
+#radlab{
+    color: violet;
+    font: bolder;
+    font-weight: bolder;
 }
