@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="project-2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <title>bootstrap-project-2</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand text-decoration-underline text-success text-uppercase" href="#">Pocket</a>
+        <a class="navbar-brand text-decoration-underline text-success text-uppercase" href="#">
+           
+          Pocket</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,7 +23,7 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Discover</a>
+              <a class="nav-link" href="#" id="discover">Discover</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Service</a>
@@ -83,7 +86,11 @@
            
            
           </ul>
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Sign in</button>
+          <button class="btn btn-outline-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Sign in</button>
+          <button class="btn text-primary" type="button">
+            
+            <i class="bi bi-search"></i>
+          </button>
 
 <div class="offcanvas offcanvas-top bg-success" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
   <div class="offcanvas-header">
@@ -105,7 +112,6 @@
           <input type="password" class="form-control" id="inputPassword3">
         </div>
       </div>
-    
       <button type="submit" class="btn btn-primary">Sign in</button>
     </form>
 
@@ -115,14 +121,33 @@
         </div>
       </div>
     </nav>
+
+  <div class="conatiner-fluid" id="mid">
+
+    <div class="row text-center justify-content-evenly">
+      <div class="col-4 bg-secondary">
+        <h1>we are here for you!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, culpa sequi?</p>
+      </div>
+      <div class="col-5 bg-success">
+        image
+      </div>
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+
     
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    </script>
 
   </body>
 </html>
