@@ -72,11 +72,14 @@ h2.text-center{
     margin-top: 35px;
     margin-bottom: -10px;
     color: antiquewhite;
+    font-weight: bolder;
 }
 p.text-center{
     letter-spacing: 2px;
     font-family: 'Dancing Script', cursive;
     color: aqua;
+    font-weight: bold;
+    
 }
 img.img-fluid{
     transition-duration: .5s;
