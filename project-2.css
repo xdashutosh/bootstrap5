@@ -12,8 +12,12 @@
 }
 .navbar{
     background-color:rgba(5, 4, 4, 0.918);
-    box-shadow: 1px 1px 7px blue;
+    box-shadow: 1px 1px 5px white;
     
+}
+.nav-link:hover{
+background-color:white;
+border-radius: 10%;
 }
 .navbar .navbar-brand{
     font-size:1.5rem;
@@ -27,7 +31,9 @@ li.nav-item:nth-child(n) > a:nth-child(n):hover{
 color: red;
 }
 .text-light:hover {
+    background-color:white;
     color: red !important;
+
 }
 #searchicom{
     color: red;
@@ -49,4 +55,32 @@ color: yellow;
 }
 .col-4{
     margin-top: 1.2rem;
+}
+.navbar-brand:hover{
+    text-shadow: 1px 1px 3px blue;
+}
+.justify-content-evenly{
+    height: 400px;
+    margin: 0px;
+    background-image: url('images/dark_mid_background.jpg');
+    background-position: center;
+    background-size: cover;  
+}
+h2.text-center{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    color: antiquewhite;
+}
+p.text-center{
+    letter-spacing: 2px;
+    font-family: 'Dancing Script', cursive;
+    color: aqua;
+}
+img.img-fluid{
+    transition-duration: .5s;
+}
+img.img-fluid:hover{
+    transform: scale(1.2);
 }
