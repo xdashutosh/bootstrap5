@@ -8,6 +8,7 @@
 
 body{
 overflow-x: hidden;    
+background-color: black;
 }
 #logo{
     color: red;
@@ -151,4 +152,62 @@ background: url('images/b5img/s3.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+}
+.about > div:nth-child(1) > div:nth-child(2){
+    background-color: black;
+}
+div.col-sm-12:nth-child(1) > h1:nth-child(1){
+    color: white;
+}
+div.col-sm-12:nth-child(1) > p:nth-child(2){
+    color: wheat;
+}
+#collapseTwo > div:nth-child(1){
+    background-color:black;
+    color: white;
+}
+#collapseOne > div:nth-child(1){
+    background-color:black;
+    color: white;
+
+}
+#collapseThree > div:nth-child(1){
+    background-color:black;
+    color: white;
+
+}
+#headingThree > button:nth-child(1){
+    background-color:black;
+    color: white;
+
+}
+#headingOne > button:nth-child(1){
+    background-color:black;
+    color: white;
+
+}
+#headingTwo > button:nth-child(1){
+    background-color:black;
+    color: white;
+
+}
+.mt-4 > div:nth-child(1) > h1:nth-child(1){
+    color: wheat;
+}
+
+.services > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1){
+    color: wheat;
+}
+.mt-4 > div:nth-child(n) > hr:nth-child(n){
+    background-color: red;
+}
+.services > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > hr:nth-child(2){
+    background-color: red;
+
+}
+.team > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1){
+    color: wheat;
+}
+.team > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > hr:nth-child(2){
+    background-color:red;
 }
