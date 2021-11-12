@@ -89,14 +89,66 @@ border-top-right-radius: 10px;
     color: wheat;
 }
 .text-primary {
-    color: #1a3255 !important;
-    margin-top: 14rem;
-    font-weight: bolder;  
+    
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px red;
+
 }
-.card-title{
+div.col-sm-12:nth-child(1) > p:nth-child(2){
+    text-shadow: 1px 1px 2px gray;
+    
+}
+.card-img{
+    box-shadow: 3px 3px 8px black,-3px -3px 8px black;
+}
+i{
+color: blue;
+
+}
+div.text-light > a:nth-child(4){
+    background-color:black;
+
+}
+div.text-light > a:nth-child(4):hover{
+    background-color:white;
+    color: black;
+}
+.services > div:nth-child(n) > div:nth-child(n) > div:nth-child(n) > div:nth-child(n) > div:nth-child(n) > div:nth-child(n) > p:nth-child(n){
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+.rounded-circle{
+    border: 1px solid blue;
+}
+
+div.my-3:nth-child(1) > div:nth-child(1):hover{
+    background: url('images/b5img/s1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.my-3:nth-child(n) > div:nth-child(n) > div:nth-child(n) > h5:nth-child(n){
+    color: red;
     font-size: bolder;
     font-weight: bolder;
-    color: aqua;
-    background-color:rgba(255, 0, 0, 0.562);
-    border-radius: 5px;
+}
+
+div.my-3:nth-child(n) > div:nth-child(n) > div:nth-child(n) > p:nth-child(n){
+    color: rgb(90, 110, 38);
+    font-weight: 800;
+}
+
+div.my-3:nth-child(2) > div:nth-child(1):hover{
+    background: url('images/b5img/s2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+div.my-3:nth-child(3) > div:nth-child(1):hover{
+background: url('images/b5img/s3.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
