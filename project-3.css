@@ -209,5 +209,17 @@ div.col-sm-12:nth-child(1) > p:nth-child(2){
     color: wheat;
 }
 .team > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > hr:nth-child(2){
-    background-color:red;
+    color: red;
+}
+.contact > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1){
+    color: wheat;
+}
+div.col-md-5:nth-child(2) > img:nth-child(1){
+    border: .5px solid white;
+    padding:5px;
+}
+#inputEmail4{
+    font-size:1rem;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
 }
