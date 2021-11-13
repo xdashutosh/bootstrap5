@@ -26,14 +26,13 @@ text-decoration: underline;
     color: rgba(219, 141, 23, 0.55);
     border-color: rgba(242, 156, 28, 0.73);
 }
+li.nav-item:nth-child(n) > a:nth-child(n){
+    color: white;
+}
 
 li.nav-item:nth-child(n) > a:nth-child(n):hover{
 
-    box-shadow:2px 2px 6px red,-2px -2px 6px red;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    background-color: rgb(15, 14, 13);
-    color: wheat;
+color: red;
 }
 li.nav-item:nth-child(n) > a:nth-child(n){
     font-weight: bolder;
