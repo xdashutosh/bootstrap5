@@ -26,13 +26,19 @@ border-radius: 10%;
 
 li.nav-item:nth-child(n) > a:nth-child(n){
     color: white;
+font-size: 1.3rem;
 }
 li.nav-item:nth-child(n) > a:nth-child(n):hover{
 color: red;
 }
+.text-light{
+    font-size: 1.3rem;
+
+}
 .text-light:hover {
     background-color:white;
     color: red !important;
+
 
 }
 #searchicom{
@@ -81,14 +87,36 @@ p.text-center{
     font-weight: bold;
     
 }
-img.img-fluid{
-    transition-duration: .5s;
-    
-}
-img.img-fluid:hover{
-    transform: scale(1.3);
-}
+
+
 .col-md-1 {
     flex: 0 0 auto;
     width: 0.333%;
+}
+
+#offcanvasRight{
+    background-color: green;
+}
+#offcanvasTop{
+    background-color:green;
+}
+.top-contacts{
+    background-color:black;
+
+}
+.bi-telephone{
+    color: green;
+    font-size: 2vw;
+}
+.bi-envelope{
+    color: green;
+}
+.bi-envelope > a:nth-child(1){
+    text-decoration: none;
+    font-size: smaller;
+    color: green;
+}
+div.col-3:nth-child(3){
+    color: green;
+    width: 130px;
 }
