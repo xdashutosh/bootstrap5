@@ -108,3 +108,28 @@ background-color:green;
 background-color:transparent;
 color: white;
 }
+div.col-12:nth-child(1){
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: green;
+}
+#aboutpara{
+    font-family: 'Lobster Two', cursive;
+}
+div.col-md-4:nth-child(n) > div:nth-child(n) > div:nth-child(n) > i:nth-child(n){
+    color: green;
+    background-color:black;
+    border-radius: 50%;
+}
+h6.card-subtitle:nth-child(n){
+color:yellow;
+}
+div.col-md-4:nth-child(n) > div:nth-child(n) > div:nth-child(n){
+     background:linear-gradient(to left top, green  ,wheat  , green );
+}
+.read{
+    background-color:green;
+}
+.conatiner-container-fluid{
+    background: linear-gradient(20deg ,green ,green 50%,white 20%);
+}
