@@ -107,3 +107,6 @@ background-color:green;
 background-color:transparent;
 color: white;
 }
+div.col-md-5:nth-child(2){
+    background-color: transparent;
+}
