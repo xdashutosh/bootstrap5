@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
+    overflow-x: hidden;
 }
 body{
     overflow-x: hidden;
@@ -106,7 +107,4 @@ background-color:green;
 }p.text-center:hover{
 background-color:transparent;
 color: white;
-}
-div.col-md-5:nth-child(2){
-    background-color: transparent;
 }
