@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
 }
+body{
+    overflow-x: hidden;
+}
 .btn-check:focus + .btn, .btn:focus {
     outline: 0;
     box-shadow: none;
@@ -54,45 +57,12 @@ color: red;
 .bi:hover{
 color: yellow;
 }
-#mid{
-    height: 400px;
-    width: 100%;
-    background-color: red;
-}
-.col-4{
-    margin-top: 1.2rem;
-}
+
+
 .navbar-brand:hover{
     text-shadow: 1px 1px 3px blue;
 }
-.justify-content-evenly{
-    height: 500px;
-    margin: 0px;
-    background-image: url('images/dark_mid_background.jpg');
-    background-position: center;
-    background-size: cover;  
-}
-h2.text-center{
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    text-transform: uppercase;
-    margin-top: 8px;
-    margin-bottom: -10px;
-    color: antiquewhite;
-    font-weight: bolder;
-}
-p.text-center{
-    letter-spacing: 2px;
-    font-family: 'Dancing Script', cursive;
-    color: aqua;
-    font-weight: bold;
-    
-}
 
-
-.col-md-1 {
-    flex: 0 0 auto;
-    width: 0.333%;
-}
 
 #offcanvasRight{
     background-color: green;
@@ -106,7 +76,7 @@ p.text-center{
 }
 .bi-telephone{
     color: green;
-    font-size: 2vw;
+    font-size: 69%;
 }
 .bi-envelope{
     color: green;
@@ -119,4 +89,21 @@ p.text-center{
 div.col-3:nth-child(3){
     color: green;
     width: 130px;
+}
+.justify{
+    background: url("images/sanju_back_1.png");
+}
+h2.text-center{
+    color: green;
+}
+
+.join{
+background-color:green;
+}
+.join:hover{
+    color: black;
+    background-color: white;
+}p.text-center:hover{
+background-color:transparent;
+color: white;
 }
